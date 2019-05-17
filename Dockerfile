@@ -1,5 +1,5 @@
 # Derived from official mysql image (our base image)
-FROM mysql
+FROM hypriot/rpi-mysql
 
 #setting the envirement
 ENV MYSQL_ROOT_PASSWORD=12345
